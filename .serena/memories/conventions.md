@@ -1,0 +1,6 @@
+- Use sklearn pipelines to avoid leakage in CV/tuning.
+- Use exactly one leakage strategy: single month OR deduplicate by Customer_ID.
+- Drop ID, Customer_ID, Month, Name, SSN before modeling.
+- For PCA, use continuous features only and standardize first.
+- Classification must compare 3 tuned models with 10-fold CV and F1 metric.
+- Clustering must exclude label and report ARI or NMI.

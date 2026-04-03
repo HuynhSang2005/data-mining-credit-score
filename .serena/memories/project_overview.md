@@ -1,0 +1,5 @@
+- Purpose: Data Mining course project for Credit Score classification + clustering.
+- Primary artifact: notebooks/final_submission.ipynb.
+- Dataset: data/raw/train.csv (100k rows, 28 columns, target Credit_Score).
+- Major risk: Customer_ID repeats across Month values -> leakage if untreated.
+- Required flow: preprocess -> save cleaned CSV -> reload -> EDA -> PCA -> classification -> clustering -> conclusion.

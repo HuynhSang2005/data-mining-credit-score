@@ -1,0 +1,5 @@
+- Create venv (PowerShell): python -m venv .venv; .\\.venv\\Scripts\\Activate.ps1
+- Install deps: pip install -r requirements.txt
+- Run notebook: jupyter notebook
+- Export webpdf: jupyter nbconvert --to webpdf notebooks/final_submission.ipynb --allow-chromium-download
+- Export pdf (latex): jupyter nbconvert --to pdf notebooks/final_submission.ipynb
